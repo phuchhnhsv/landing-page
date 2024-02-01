@@ -1,0 +1,274 @@
+.app {
+  overflow: hidden;
+  background: radial-gradient(
+    circle at 0% 0%,
+    rgba(2, 123, 150, 0.8) 0%,
+    rgba(2, 150, 132, 0.7) 33.333%,
+    rgba(7, 169, 52, 0.6) 66.667%,
+    rgba(2, 150, 132, 0.7) 100%
+  );
+}
+
+.header {
+  height: 689px;
+  position: relative;
+}
+
+.ladi-section-background {
+  background-size: cover;
+  height: 100%;
+  background-attachment: scroll;
+  background-origin: content-box;
+  background-image: url("https://media-private.canva.com/_-cVc/MAFbM__-cVc/1/s.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20240131%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240131T112940Z&X-Amz-Expires=74235&X-Amz-Signature=05432846845c2b67c3ab1f97463942fa3031e14b446e9eb79cbaf4e9099fb811&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Thu%2C%2001%20Feb%202024%2008%3A06%3A55%20GMT");
+  background-position: center top;
+  background-repeat: repeat;
+  opacity: 0.2;
+}
+
+.header_container {
+  position: absolute;
+  width: 100%;
+  top: 25%;
+}
+
+.ladi-headline {
+  color: rgb(179, 255, 249);
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-shadow: rgb(123, 198, 192) 2px 0px 0px;
+}
+
+.ladi-headline__des {
+  font-size: 18px;
+  color: #fff;
+}
+
+.time__heading {
+  width: 320px;
+  margin-top: 30px;
+  border-radius: 10px;
+  border: 2px solid #294172;
+  background-color: white;
+  padding: 4px;
+}
+.time__heading-time {
+  display: flex;
+  align-items: center;
+}
+#SHAPE9 {
+  width: 22.0037px;
+  height: 22.0037px;
+  top: 4.93775px;
+  left: 5.5882px;
+}
+#SHAPE9 svg:last-child {
+  fill: #000;
+}
+
+.ladi-element {
+  font-size: 13px;
+  margin-left: 4px;
+}
+
+.btn__register {
+  margin-top: 50px;
+}
+
+.regis__btn {
+  padding: 10px 20px;
+  border-radius: 6px;
+  background-color: #fbb800;
+  outline: none;
+  font-size: 21px;
+  color: white;
+  border: none;
+  margin-left: 60px;
+}
+
+.heading__right {
+  top: 10px;
+}
+.ladi-image {
+  position: relative;
+  height: 520px;
+  transform: scale(-1, 1);
+}
+.ladi-image-background {
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 777.991px;
+  height: 518.661px;
+  transform: translate(1.7053e-13px, -33.7388px) rotate(0deg);
+  top: 0px;
+  left: -3%;
+  background-image: url("https://media.canva.com/1/image-resize/1/800_533_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9tTnVINC9NQUY3UHRtTnVINC8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAAJRsQrjbCF3ARtFgdf-D-GOeHPPfMXWUmj2v2eYpRZQC&exp=1706773665&x-canva-quality=screen&csig=AAAAAAAAAAAAAAAAAAAAAIOfSYRcWXIB1EHvTJmBwuFH4opYZyFo0N8XaOmoRQOt");
+  z-index: 4;
+}
+.ladi-image-money {
+  position: absolute;
+  background-repeat: no-repeat;
+  width: 777.991px;
+  height: 674.661px;
+  transform: translate(-5.68434e-14px, -5.68434e-14px) rotate(0deg);
+  top: -130px;
+  left: -150px;
+  z-index: 1;
+  background-image: url("https://media-private.canva.com/yJc5Y/MAE8zRyJc5Y/1/s.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20240131%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240131T032706Z&X-Amz-Expires=100661&X-Amz-Signature=8e047bd5cfc38a05af73557568ed2ae177e9cee20cfee485663977c44e58a13f&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Thu%2C%2001%20Feb%202024%2007%3A24%3A47%20GMT");
+}
+
+.container {
+  width: 100%;
+  margin-top: 10px;
+  position: relative;
+}
+
+.container__buffter {
+  background-image: url("https://media-private.canva.com/X6Su0/MAEytZX6Su0/1/s.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20240131%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240131T203039Z&X-Amz-Expires=59409&X-Amz-Signature=e09373d75175d92d9050c68ba2c06905babb1de6d6eeb30976151825a9ce72d6&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Thu%2C%2001%20Feb%202024%2013%3A00%3A48%20GMT");
+  height: 689px;
+}
+
+.app__pro {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.app_pro-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-img {
+  width: 45px;
+  height: 45px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.boder-text-img {
+  width: 282px;
+  height: 139px;
+}
+.pro-turnon {
+  padding: 12.5px 4px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background-color: #113b35;
+}
+.turnon-app {
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.apppro__reciver {
+  margin: 32px 0;
+  display: block;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.when-open {
+  display: block;
+  font-size: 16px;
+  color: white;
+  text-align: left;
+  margin-top: 20px;
+  line-height: 22px;
+}
+.sale__container {
+  position: relative;
+}
+
+.nhpro_content {
+  position: absolute;
+  top: 21%;
+  left: 28%;
+}
+
+.nh-gift {
+  color: #155057;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.nh-money {
+  color: #155057;
+  font-size: 22px;
+  font-weight: 800;
+  margin-top: 14px;
+}
+
+/* Footer */
+.footer {
+  border-top: 4px solid var(--primary-color);
+  padding-top: 16px;
+  margin-top: 150px;
+}
+
+.footer__heading {
+  font-size: 1.3rem;
+  color: var(--text-color);
+  text-transform: uppercase;
+}
+
+.footer-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.footer-item__link {
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  color: #aaa49f;
+  padding: 2px 0;
+}
+
+.footer-item__link:hover {
+  color: var(--primary-color);
+}
+
+.footer-item__icon {
+  font-size: 1.6rem;
+  margin: -1px 8px 0 0;
+}
+
+.footer__download {
+  display: flex;
+}
+
+.footer__download-qr {
+  --qr-size: 80px;
+  width: var(--qr-size);
+  height: var(--qr-size);
+  border: 1px solid var(--border-color);
+}
+
+.footer__dowload-apps {
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer__dowload-app-img {
+  height: 18px;
+}
+
+.footer__dowload-app-link {
+  text-decoration: none;
+  color: transparent;
+}
+
+.footer__bottom {
+  margin-top: 26px;
+  background-color: #f5f5f5;
+  padding: 8px 0;
+}

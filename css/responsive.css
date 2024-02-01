@@ -1,0 +1,93 @@
+/* Mobile & Tablet */
+@media (min-width: 1024) and (max-width: 1023px) {
+}
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+  .header {
+    height: 589px;
+  }
+  .ladi-headline {
+    font-size: 38px;
+  }
+  .header_container {
+    top: 25%;
+  }
+  .ladi-image {
+    height: 420px;
+  }
+  .ladi-image-background {
+    width: 383px;
+    height: 403px;
+    left: -90px;
+  }
+  .ladi-image-money {
+    width: 510px;
+    height: 490px;
+    left: -174px;
+  }
+  .when-open {
+    margin: 15px 0;
+  }
+  .nhpro_content {
+    left: 32%;
+  }
+}
+/* Mobile */
+@media (max-width: 739px) {
+  .header {
+    height: 389px;
+  }
+  .header_container {
+    top: 25%;
+  }
+  .open__heading {
+    margin: 0 20px;
+  }
+  .ladi-headline {
+    font-size: 22px;
+  }
+  .ladi-headline__des {
+    font-size: 14px;
+  }
+  .time__heading {
+    margin: 20px;
+    width: 300px;
+  }
+  .btn__register {
+    margin-top: 20px;
+  }
+  .ladi-image-background {
+    width: 383px;
+    height: 303px;
+  }
+  .ladi-image-money {
+    display: none;
+  }
+  .sale__mobile {
+    text-align: center;
+  }
+  .when-open {
+    margin: 15px 0;
+    text-align: center;
+  }
+  .nhpro_content {
+    left: 44%;
+  }
+  .footer__content {
+    padding: 0 16px;
+  }
+  .footer__heading {
+    text-align: center;
+  }
+  .footer__download,
+  .footer-item__link {
+    justify-content: center;
+  }
+  .footer__download-apps {
+    flex: unset;
+  }
+  .footer__dowload-app-link {
+    display: block;
+    padding: 6px 8px;
+  }
+}
