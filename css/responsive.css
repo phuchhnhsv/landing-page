@@ -1,5 +1,7 @@
 /* Mobile & Tablet */
-@media (min-width: 1024) and (max-width: 1023px) {
+@media (min-width: 1024) and (max-width: 1052px) {
+  .container__tower-right {
+  }
 }
 /* Tablet */
 @media (min-width: 740px) and (max-width: 1023px) {
@@ -30,6 +32,32 @@
   }
   .nhpro_content {
     left: 32%;
+  }
+  .sale__container:last-child .nhpro_content {
+    left: 15%;
+  }
+  .container__buffter {
+    height: 740px;
+  }
+  .nh__turnonmood-res {
+    margin-bottom: 10px;
+  }
+  .container__middle {
+    height: 970px;
+  }
+  .container__tower {
+    display: flex;
+    flex-direction: column;
+  }
+  .nh-img {
+    text-align: center;
+    width: 100%;
+  }
+  .btn__seemore {
+    flex: 0;
+  }
+  .container__tower-right {
+    height: 500px;
   }
 }
 /* Mobile */
@@ -71,7 +99,30 @@
     text-align: center;
   }
   .nhpro_content {
-    left: 44%;
+    width: 100%;
+    left: 0;
+  }
+  .regis__btn {
+    margin-right: 38px;
+  }
+  .apppro__reciver {
+    margin: 20px 12px;
+    line-height: 22px;
+  }
+  .apppro__turnonapp {
+    margin: 20px 12px;
+  }
+  .container__buffter {
+    height: 948px;
+  }
+  .pro__details {
+    text-align: center;
+  }
+  .qr-img {
+    width: 250px;
+  }
+  .container__middle {
+    height: 1330px;
   }
   .footer__content {
     padding: 0 16px;
@@ -89,5 +140,44 @@
   .footer__dowload-app-link {
     display: block;
     padding: 6px 8px;
+  }
+  .nh__turnonmood-res {
+    margin-bottom: 10px;
+  }
+  .nh__chat {
+    height: 250px;
+  }
+  .nh__turnonmood-container {
+    margin: 0 12px;
+  }
+  .container__tower {
+    display: flex;
+    flex-direction: column;
+  }
+  .nh-qr {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 140px;
+    margin-top: 3px;
+  }
+  .down__btn {
+    padding: 5px 10px;
+    margin-top: 4px;
+  }
+  .nh-img {
+    text-align: center;
+    width: 100%;
+  }
+  .btn__seemore {
+    flex: 0;
+  }
+  .container__tower-right {
+    height: 650px;
+  }
+  .footer-nh {
+    margin: 0 8px;
+  }
+  .footer-nh:last-child {
+    margin-top: 12px;
   }
 }
